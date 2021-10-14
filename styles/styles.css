@@ -99,3 +99,76 @@ h2 {
 .about__text_item:nth-child(n+2) {
     margin-top: 16px;
 }
+
+.skills {
+    text-align: center;
+
+}
+
+.skills__content {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.skills__text {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.skills__item {
+    padding-top: 40px;
+    margin-left: 25px;
+}
+
+.portfolio {
+    background-color: #f6f6f6;
+    text-align: center;
+    top: 50px;
+    margin-top: 50px;
+}
+
+.portfolio__item {
+    margin-top: 30px;
+    justify-content: center;
+    top: 20px;
+
+
+}
+
+.portfolio__item_text {
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+
+}
+.contacts {
+    text-align: center;
+}
+.contacts__item {
+    padding-top: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.contacts__btn {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 155px;
+    height: 70px;
+    width: 320px;
+    line-height: 70px;
+    margin: 40px auto 0;
+}
+
+.contacts__avatar {
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+.contacts__text {
+    font-size: 15px;
+    color: #828282;
+
+}
