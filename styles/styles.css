@@ -53,6 +53,7 @@ h2 {
 .content {
     margin: 0 auto;
     width: 940px;
+    padding-top: 20px;
 }
 
 .short-info {
@@ -85,6 +86,7 @@ h2 {
 .about {
     background-color: #f6f6f6;
     text-align: center;
+    margin-top: 120px;
 }
 
 .about__text {
@@ -102,7 +104,6 @@ h2 {
 
 .skills {
     text-align: center;
-
 }
 
 .skills__content {
@@ -133,14 +134,14 @@ h2 {
     justify-content: center;
     top: 20px;
 
-
 }
 
 .portfolio__item_text {
-    padding-top: 10px;
     font-size: 15px;
     text-align: center;
-
+    display: inline-block;
+    margin-top: 46px;
+    color: black;
 }
 .contacts {
     text-align: center;
@@ -170,5 +171,92 @@ h2 {
 .contacts__text {
     font-size: 15px;
     color: #828282;
+    text-align: center;
+}
+.contacts__text__item {
+    padding-bottom: 100px;
+    font-size: 15px;
+    color: #828282;
+    text-align: center;
+}
+.contacts__text__item a {
+    color: #828282;
+}
+.footer {
 
+}
+.footer__links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__links_item {
+    text-decoration: none;
+    padding: 40px;
+}
+
+.footer__links_item img {
+    margin: 0;
+    display: block;
+}
+@media screen and (max-width: 767px) {
+    .footer__links_item {
+        width: 288px;
+    }
+    .skills__item {
+        width: 288px;
+    }
+    .banner {
+        width: 288px;
+    }
+    .avatar {
+        width: 288px;
+    }
+    .header {
+        width: 288px;
+    }
+    .content {
+        width: 288px;
+    }
+    .contacts__text__item {
+        width: 288px;
+    }
+    .contacts__text{
+        width: 288px;
+    }
+    .footer {
+        width: 288px;
+    }
+    .skills {
+        width: 288px;
+    }
+    .skills__content {
+        width: 288px;
+    }
+    .skills__item {
+        width: 288px;
+    }
+    .skills__text {
+        width: 288px;
+    }
+    .skills__content {
+        width: 288px;
+    }
+    .about {
+        width: 288px;
+    }
+    .portfolio {
+        width: 288px;
+    }
+    .contacts {
+        width: 288px;
+    }
+    .footer__links_item {
+        width: 288px;
+    }
+    .footer__links {
+        width: 288px;
+    }
 }
